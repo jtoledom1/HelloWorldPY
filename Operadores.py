@@ -1,0 +1,5 @@
+print("Tipos de operadores")
+print("Lo tipos de operadores son: +,-,*")
+print("% Módulo")
+print("// División entera")
+print("** Potencia")
