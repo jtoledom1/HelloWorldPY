@@ -10,3 +10,4 @@ print(sin(radians(30)))
 
 #Para hacer concatenaciones se hace lo sig:
 print(2," ", "Esto es una concatenación")
+print(2,['Esto también'])
