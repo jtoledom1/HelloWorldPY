@@ -14,3 +14,7 @@ print(2,['Esto también'])
 
 #Secuencias de escape:
 print("\\t \t \n Esto es una sec de esc ")
+
+nombre=input("¿Cómo te llamas?")
+
+print("Entiendo, Hola ",nombre)
