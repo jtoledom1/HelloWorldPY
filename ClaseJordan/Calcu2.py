@@ -7,7 +7,8 @@ MAGENTA = '\033[0;35m'
 CYAN = '\033[0;36m'
 WHITE = '\033[0;37m'
 NC = '\033[0m' 
-
+print(" ")#Este print junto con el system clear inicializa la consola en 0.
+system("clear")
 print(f"""
 {CYAN}  :::::::::::       ::::::::       :::        ::::::::::       :::::::::       :::::::: 
      :+:          :+:    :+:      :+:        :+:              :+:    :+:     :+:    :+: 
@@ -20,8 +21,8 @@ print(f"""
       """)
 
 
-num1 = float(input("Ingresa el primer numero: "))
-num2 = float(input("Ingresa el segundo numero: "))
+num1 = float(input("\tIngresa el primer numero: "))
+num2 = float(input("\tIngresa el segundo numero: "))
 system("clear")  # Clear para mac/linux cls para Windows
 print(f"EL Resultado de tu operación es: \n\n")
 print(f"{YELLOW}{num1} {RED}+ {MAGENTA}{num2} {RED}= {BLUE}{num1 + num2}")
