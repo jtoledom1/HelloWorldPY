@@ -33,7 +33,7 @@ print(f"""{RED}
  /\_/\  
 {NC}{GREEN}
 ( o.o ) 
-{NC}{BLUE}
+{NC}
  > ^ <      
 {NC}""")
 
