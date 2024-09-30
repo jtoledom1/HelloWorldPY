@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<interface version="1.4" author="PygubuDesigner 0.39.3">
+  <project>
+    <settings />
+    <customwidgets />
+  </project>
+  <object class="tk.Tk" id="mainwindow">
+    <property name="height">720</property>
+    <property name="overrideredirect">true</property>
+    <property name="width">720</property>
+    <child>
+      <object class="tk.Message" id="msg1" named="True">
+        <property name="anchor">ne</property>
+        <property name="background">#424242</property>
+        <property name="cursor">box_spiral</property>
+        <property name="foreground">#eaeaea</property>
+        <property name="text" translatable="yes">This a tkMessage</property>
+        <layout manager="pack">
+          <property name="side">top</property>
+        </layout>
+      </object>
+    </child>
+  </object>
+</interface>
