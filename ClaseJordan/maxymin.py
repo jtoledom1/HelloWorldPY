@@ -1,4 +1,4 @@
-from os import system
+from os import system 
 import sympy as sp
 CYAN = '\033[0;36m'
 print(" ")#Este print junto con el system clear inicializa la consola en 0.
