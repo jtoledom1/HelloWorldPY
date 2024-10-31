@@ -1,0 +1,47 @@
+[
+    {
+      "idempleado": "empl4",
+      "nombre": "Paquito",
+      "ap": "Jiménito",
+      "am": "Peralez",
+      "nacionalidad": [
+        "Inglés",
+        "PFKNR"
+      ],
+      "correo": [
+        "emailBellako@gmail.com",
+        "EmailRIKO@gmail.com"
+      ],
+      "Tel": "512273221"
+    },
+    {
+      "idempleado": "empl5",
+      "nombre": "Jimenito",
+      "ap": "Torres",
+      "am": "Mensuales",
+      "nacionalidad": [
+        "Inglés",
+        "PFKNR"
+      ],
+      "correo": [
+        "emailBellakozotumoral@gmail.com",
+        "EmailRIKOzoPeruano@gmail.com"
+      ],
+      "Tel": "512273222"
+    },
+      {
+      "idempleado": "empl6",
+      "nombre": "Angreles",
+      "ap": "Azules",
+      "am": null,
+      "nacionalidad": [
+        "Inglés",
+        "PFKNR"
+      ],
+      "correo": [
+        "emailBellakozotumoral@gmail.com",
+        "EmailRIKOzoPeruano@gmail.com"
+      ],
+      "Tel": "512273222"
+    }
+  ] 
