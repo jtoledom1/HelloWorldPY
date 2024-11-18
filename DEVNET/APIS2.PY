@@ -1,8 +1,8 @@
 import urllib.parse
-import requests
+import requests 
 
 main_api = "https://www.mapquestapi.com/directions/v2/route?"
-key = "7992e2dc-988d-4aef-9889-12a1df29254e"    # You should use your own key 
+key = "7992e2dc-988d-9889-12a1df29254e"    # You should use your own key 
 
 while True:
     orig = input ("Source City :")
