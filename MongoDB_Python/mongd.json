@@ -1,0 +1,51 @@
+db.EmpleadosToledotte.insertMany([
+    {
+        "Empleados": [
+            {
+                "codigo": "001",
+                "nombre": "Luis",
+                "AP": "González",
+                "AM": "Martínez",
+                "edad": 34,
+                "Telefono": ["+521234567890", "+529876543210"],
+                "Temas": ["viajes", "gastronomía", "futbol"]
+            },
+            {
+                "codigo": "002",
+                "nombre": "Sara",
+                "AP": "Jiménez",
+                "AM": "Ramírez",
+                "edad": 28,
+                "Telefono": ["+521111223344", "+529876512345"],
+                "Temas": ["moda", "literatura", "películas", "tecnología"]
+            },
+            {
+                "codigo": "003",
+                "nombre": "Carlos",
+                "AP": "Pérez",
+                "AM": "López",
+                "edad": 45,
+                "Telefono": ["+521234555666", "+529876678910"],
+                "Temas": ["tecnología", "deportes", "negocios", "economía", "videojuegos"]
+            },
+            {
+                "codigo": "004",
+                "nombre": "Ana",
+                "AP": "Méndez",
+                "AM": "González",
+                "edad": 29,
+                "Telefono": ["+521234567890"],
+                "Temas": ["cultura", "arte", "tecnología"]
+            },
+            {
+                "codigo": "005",
+                "nombre": "Mario",
+                "AP": "Torres",
+                "AM": "López",
+                "edad": 39,
+                "Telefono": ["+523334455667", "+521234567890"],
+                "Temas": ["cine", "videojuegos", "gastronomía", "música"]
+            }
+        ]
+    }
+])
