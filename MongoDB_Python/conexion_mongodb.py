@@ -1,9 +1,9 @@
-from pymongo import MongoClient
+""" from pymongo import MongoClient
 try:
     client = MongoClient('localhost', 27017)
     database = client['PalDatos']
     collection = database['Empleados_Toledotte']
-    documents = collection.find()
+    documents = collection.find() """
 
     """ collection.insert_one({
         "codigo": "009",
@@ -45,14 +45,16 @@ try:
     ]
 
     ) """
-"""     collection.updateOne(
+    """ 
+    collection.updateOne(
+(
                 {codigo:'009'},
                 {
                 $set:{'nombre':'Juan'},
                 $currentDate:{lastModified:true}
                 }
     )
- """
+
     for document in documents:
         print(document)
 
@@ -60,4 +62,4 @@ except Exception as ex:
     print("Error durante la conexión: {}".format(ex))
 finally:
     client.close()
-    print("Éxito.")
+    print("Éxito.") """
