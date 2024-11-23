@@ -7,18 +7,21 @@ def interacmongo(TolAct,query={}):
         documents = collection.find()
         for document in documents:
             print(document)
-        if TolAct == 'find':
-            collection.find(query)
-        if TolAct == 'remove':
-            collection.remove(query,true)
-        if TolAct == 'updateOne':
-            collection.updateOne(query)
-        if TolAct == 'insert_many':
-            collection.insert_many(query)
-        if TolAct == 'insert_one':
-            collection.insert_one(query)
-        if TolAct == 'insert_many':
-            collection.insert_many(query)
+
+        match TolAct:
+            case 'find':
+                collection.find(query)
+            case 'remove':
+                collection.remove(query, True)
+            case 'updateOne':
+                collection.updateOne(query)
+            case 'insert_many':
+                collection.insert_many(query)
+            case 'insertOne':
+                collection.insert_one(query)
+            case _:
+                print("Acción no reconocida")
+
     except Exception as ex:
         print("Error durante la conexión: {}".format(ex))
     finally:
