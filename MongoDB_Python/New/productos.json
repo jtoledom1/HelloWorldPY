@@ -1,0 +1,29 @@
+[
+    {
+        "ident":"001",
+        "colores":["Azul","Rojo","Amarillo"],
+        "precio":23000,
+        "Existencia":12,
+        "nombre":"Cofre",
+        "Materiales":["Metal","Madera"]
+
+    },
+    {
+        "ident":"002",
+        "colores":["Azul","Rojo","Amarillo"],
+        "precio":12500,
+        "Existencia":12,
+        "nombre":"Pala",
+        "Materiales":["Hierro","Madera"]
+
+    },
+    {
+        "ident":"001",
+        "colores":["Reflejante","Polarizado","Transparente"],
+        "precio":1000,
+        "Existencia":12,
+        "nombre":"Ventana",
+        "Materiales":["Aluminio","Cristal"]
+
+    }
+]

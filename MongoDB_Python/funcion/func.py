@@ -3,8 +3,9 @@ def interacmongo(TolAct,query={}):
     try:
         client = MongoClient('localhost', 27017)
         database = client['admin']
-        collection = database['Empleados_Toledotte']
+        collection = database['toleletee']
         documents = collection.find()
+        
         for document in documents:
             print(document)
 

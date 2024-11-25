@@ -1,7 +1,7 @@
 from func import interacmongo
 def menu(Resp):
     match Resp:
-        case 'insert_many':
+        case '1':
             interacmongo('insert_many',query=[
                 {
                     "codigo": "016",
@@ -22,7 +22,7 @@ def menu(Resp):
                     "Temas": ["moda", "literatura", "películas", "tecnología"]
                 }
         ])
-        case 'insertOne':
+        case '2':
             interacmongo('insert_one',query=[
                 {
                     "codigo": "015",
@@ -34,4 +34,33 @@ def menu(Resp):
                     "Temas": ["viajes", "gastronomía", "futbol"]
                 }
         ])
+        case '3':
+            interacmongo('insert_many',query=[
+                {
+                    "ident":"001",
+                    "colores":["Azul","Rojo","Amarillo"],
+                    "precio":23000,
+                    "Existencia":12,
+                    "nombre":"Cofre",
+                    "Materiales":["Metal","Madera"]
+
+                },
+                {
+                    "ident":"002",
+                    "colores":["Azul","Rojo","Amarillo"],
+                    "precio":12500,
+                    "Existencia":12,
+                    "nombre":"Pala",
+                    "Materiales":["Hierro","Madera"]
+
+                },
+                {
+                    "ident":"003",
+                    "colores":["Reflejante","Polarizado","Transparente"],
+                    "precio":1000,
+                    "Existencia":12,
+                    "nombre":"Ventana",
+                    "Materiales":["Aluminio","Cristal"]
+                }
+                ])            
 menu(input("\n\nOpción\n\n\n"))
