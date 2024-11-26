@@ -20,6 +20,7 @@ def interacmongo(TolAct,query={}):
                 collection.insert_many(query)
             case 'insertOne':
                 collection.insert_one(query)
+
             case _:
                 print("Acción no reconocida")
 
