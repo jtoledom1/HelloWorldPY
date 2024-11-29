@@ -1,0 +1,10 @@
+{
+    "_id": ObjectId("..."),
+    "id_paciente": ObjectId("id_del_paciente"),
+    "id_medico": ObjectId("id_del_medico"),
+    "tipo_diagnostico": "Enfermedad cardiovascular",
+    "descripcion": "Hipertensión grado 2",
+    "pruebas_realizadas": ["Electrocardiograma", "Ecocardiograma"],
+    "fecha_diagnostico": "2024-11-29"
+  }
+  

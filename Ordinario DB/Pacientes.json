@@ -1,0 +1,18 @@
+{
+    "_id": ObjectId("..."),  # ID único generado por MongoDB
+    "nombre": "Juan Pérez",
+    "fecha_nacimiento": "1990-05-15",
+    "sexo": "Masculino",
+    "direccion": "Av. Siempre Viva 123",
+    "telefono": "555-123456",
+    "email": "juan.perez@email.com",
+    "historial_medico": "Historia clínica extensa",
+    "condiciones_preexistentes": "Hipertensión",
+    "seguro_medico": "123456789",
+    "contacto_emergencia": {
+      "nombre": "Ana Pérez",
+      "telefono": "555-987654"
+    },
+    "alergias": "Penicilina"
+  }
+  

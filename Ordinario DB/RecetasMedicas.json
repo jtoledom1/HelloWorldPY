@@ -1,0 +1,12 @@
+{
+    "_id": ObjectId("..."),
+    "id_paciente": ObjectId("id_del_paciente"),
+    "id_medico": ObjectId("id_del_medico"),
+    "medicamentos": [
+      { "nombre": "Losartán", "dosis": "50mg", "frecuencia": "1 vez al día" },
+      { "nombre": "Atenolol", "dosis": "25mg", "frecuencia": "1 vez al día" }
+    ],
+    "fecha_emision": "2024-11-29",
+    "diagnostico_asociado": "Hipertensión grado 2"
+  }
+  

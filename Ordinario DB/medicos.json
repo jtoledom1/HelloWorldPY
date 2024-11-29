@@ -1,0 +1,13 @@
+{
+    "_id": ObjectId("..."),  # ID único generado por MongoDB
+    "nombre": "Dr. Carlos Ruiz",
+    "especialidad": ["Cardiología", "Medicina Interna"],
+    "registro_profesional": "R12345",
+    "horarios_trabajo": [
+      { "dia": "Lunes", "hora_inicio": "08:00", "hora_fin": "12:00" },
+      { "dia": "Martes", "hora_inicio": "09:00", "hora_fin": "14:00" }
+    ],
+    "telefono": "555-112233",
+    "direccion_consulta": "Clínica Central"
+  }
+  

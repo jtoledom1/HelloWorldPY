@@ -1,0 +1,8 @@
+{
+    "_id": ObjectId("..."),
+    "id_diagnostico": ObjectId("id_del_diagnostico"),
+    "medicamentos": ["Losartán", "Atenolol"],
+    "duracion": "6 meses",
+    "indicaciones": "Tomar 1 pastilla diaria antes de las comidas"
+  }
+  
