@@ -1,5 +1,5 @@
 {
-    "id":"",
+    "id_Medico":"",
     "nombre": "Dr. Carlos Ruiz",
     "especialidad": ["Cardiología", "Medicina Interna"],
     "registro_profesional": "R12345",

@@ -1,7 +1,6 @@
 {
-    "_id": "",
-    "id_paciente":"id_del_paciente",
-    "id_medico": "id_del_medico",
+    "id_Paciente":"",
+    "id_Medico": "",
     "medicamentos": [
       { "nombre": "Losartán", "dosis": "50mg", "frecuencia": "1 vez al día" },
       { "nombre": "Atenolol", "dosis": "25mg", "frecuencia": "1 vez al día" }

@@ -1,5 +1,4 @@
 {
-    "_id": "",
     "id_diagnostico":"",
     "medicamentos": ["Losartán", "Atenolol"],
     "duracion": "6 meses",
