@@ -1,4 +1,4 @@
-from func import interacmongo
+from conect import interacmongo
 def menu(Resp):
     match Resp:
         case '1':
