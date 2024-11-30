@@ -69,11 +69,13 @@ def mostrar_formulario():
 
         # Convertir el diccionario a un JSON
         paciente_json = json.dumps(paciente, indent=4)
-
+        
         # Mostrar mensaje de éxito y los datos en formato JSON
         st.success("¡Información del paciente guardada con éxito!")
-        st.write("Datos del paciente en formato JSON:")
-        st.json(paciente_json)
+        return paciente_json
+    
+"""         st.write("Datos del paciente en formato JSON:")
+        st.json(paciente_json) """
 
 # Función principal para la home page
 def home_page():
@@ -83,5 +85,4 @@ def home_page():
     if st.button("Ir al Formulario de Registro"):
         mostrar_formulario()  # Llamar a la función que muestra el formulario
 
-# Llamar a la función principal (home page)
-home_page()
+
