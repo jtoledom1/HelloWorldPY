@@ -1,7 +1,7 @@
 {
-    "_id": ObjectId("..."),
-    "id_paciente": ObjectId("id_del_paciente"),
-    "id_medico": ObjectId("id_del_medico"),
+    "_id": "",
+    "id_paciente":"id_del_paciente",
+    "id_medico": "id_del_medico",
     "medicamentos": [
       { "nombre": "Losartán", "dosis": "50mg", "frecuencia": "1 vez al día" },
       { "nombre": "Atenolol", "dosis": "25mg", "frecuencia": "1 vez al día" }

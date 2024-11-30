@@ -1,7 +1,7 @@
 {
-    "_id": ObjectId("..."),
-    "id_paciente": ObjectId("id_del_paciente"),
-    "id_medico": ObjectId("id_del_medico"),
+    "_id": "",
+    "id_paciente": "id_del_paciente",
+    "id_medico": "id_del_medico",
     "fecha_hora": "2024-12-05T10:00:00",
     "diagnostico_asociado": "Hipertensión grado 2",
     "tratamiento_asociado": "Losartán, Atenolol"

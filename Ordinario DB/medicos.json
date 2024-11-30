@@ -1,5 +1,5 @@
 {
-    "_id": ObjectId("..."),  # ID único generado por MongoDB
+    "id":"",
     "nombre": "Dr. Carlos Ruiz",
     "especialidad": ["Cardiología", "Medicina Interna"],
     "registro_profesional": "R12345",
