@@ -1,8 +1,5 @@
-{
-    "USER":
             {
                 "nom_user":"USER",
                 "password": "PASSWD",
                 "rol": "ROL"
             }
-}

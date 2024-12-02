@@ -27,17 +27,20 @@ try:
 
     }
 ]
+    
+    
     def insertmani():
         resultado=collection.insert_many(Ins3rt)
+    
     def updatmany():
         filtro={'nombre':'Ventana'}
         nuevo_valor={'$set':{'Existencia':6}}
         resultado=collection.update_many(filtro, nuevo_valor)
         print(f'Documentos actualizados: {resultado.modified_count}')
+    
     def addupmany():
         filtro={'nombre':'Cofre'}
         nuevo_dato={'$set':{'precioventa':74500}}    
-
         resultado=collection.update_one(filtro, nuevo_dato)
         print(f'Documentos actualizados: {resultado.modified_count}')
 
