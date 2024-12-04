@@ -1,5 +1,207 @@
-            {
-                "nom_user":"USER",
-                "password": "PASSWD",
-                "rol": "ROL"
-            }
+[
+{
+"nom_user":"USER",
+"password": "PASSWD",
+"rol": "ROL"
+},
+    {
+      "nom_user": "Dr. Juan Pérez",
+      "password": "root",
+      "rol": "Medico"
+    },
+    {
+      "nom_user": "Dra. María López",
+      "password": "root",
+      "rol": "Medico"
+    },
+    {
+      "nom_user": "Dr. Andrés García",
+      "password": "root",
+      "rol": "Medico"
+    },
+    {
+      "nom_user": "Dra. Laura Martínez",
+      "password": "root",
+      "rol": "Medico"
+    },
+    {
+      "nom_user": "Dr. Carlos Fernández",
+      "password": "root",
+      "rol": "Medico"
+    },
+    {
+      "nom_user": "Dra. Isabel Rodríguez",
+      "password": "root",
+      "rol": "Medico"
+    },
+    {
+      "nom_user": "Dr. José Sánchez",
+      "password": "root",
+      "rol": "Medico"
+    },
+    {
+      "nom_user": "Dra. Ana Gómez",
+      "password": "root",
+      "rol": "Medico"
+    },
+    {
+      "nom_user": "Dr. Pedro Ruiz",
+      "password": "root",
+      "rol": "Medico"
+    },
+    {
+      "nom_user": "Dra. Marta González",
+      "password": "root",
+      "rol": "Medico"
+    },
+    {
+      "nom_user": "Dr. Javier Martínez",
+      "password": "root",
+      "rol": "Medico"
+    },
+    {
+      "nom_user": "Dra. Elena Fernández",
+      "password": "root",
+      "rol": "Medico"
+    },
+    {
+      "nom_user": "Dr. Tomás Herrera",
+      "password": "root",
+      "rol": "Medico"
+    },
+    {
+      "nom_user": "Dra. Patricia Torres",
+      "password": "root",
+      "rol": "Medico"
+    },
+    {
+      "nom_user": "Dr. Luis Gómez",
+      "password": "root",
+      "rol": "Medico"
+    },
+    {
+      "nom_user": "Dra. Raquel Díaz",
+      "password": "root",
+      "rol": "Medico"
+    },
+    {
+      "nom_user": "Dr. Víctor Sánchez",
+      "password": "root",
+      "rol": "Medico"
+    },
+    {
+      "nom_user": "Dra. Alba Romero",
+      "password": "root",
+      "rol": "Medico"
+    },
+    {
+      "nom_user": "Dr. Francisco Navarro",
+      "password": "root",
+      "rol": "Medico"
+    },
+    {
+      "nom_user": "Dra. Carmen Ruiz",
+      "password": "root",
+      "rol": "Medico"
+    },
+        {
+          "nom_user": "Admin1",
+          "password": "root",
+          "rol": "Admin"
+        },
+        {
+          "nom_user": "Admin2",
+          "password": "root",
+          "rol": "Admin"
+        },
+        {
+          "nom_user": "Admin3",
+          "password": "root",
+          "rol": "Admin"
+        },
+        {
+          "nom_user": "Admin4",
+          "password": "root",
+          "rol": "Admin"
+        },
+        {
+          "nom_user": "Admin5",
+          "password": "root",
+          "rol": "Admin"
+        },
+        {
+          "nom_user": "Admin6",
+          "password": "root",
+          "rol": "Admin"
+        },
+        {
+          "nom_user": "Admin7",
+          "password": "root",
+          "rol": "Admin"
+        },
+        {
+          "nom_user": "Admin8",
+          "password": "root",
+          "rol": "Admin"
+        },
+        {
+          "nom_user": "Admin9",
+          "password": "root",
+          "rol": "Admin"
+        },
+        {
+          "nom_user": "Admin10",
+          "password": "root",
+          "rol": "Admin"
+        },
+        {
+          "nom_user": "Admin11",
+          "password": "root",
+          "rol": "Admin"
+        },
+        {
+          "nom_user": "Admin12",
+          "password": "root",
+          "rol": "Admin"
+        },
+        {
+          "nom_user": "Admin13",
+          "password": "root",
+          "rol": "Admin"
+        },
+        {
+          "nom_user": "Admin14",
+          "password": "root",
+          "rol": "Admin"
+        },
+        {
+          "nom_user": "Admin15",
+          "password": "root",
+          "rol": "Admin"
+        },
+        {
+          "nom_user": "Admin16",
+          "password": "root",
+          "rol": "Admin"
+        },
+        {
+          "nom_user": "Admin17",
+          "password": "root",
+          "rol": "Admin"
+        },
+        {
+          "nom_user": "Admin18",
+          "password": "root",
+          "rol": "Admin"
+        },
+        {
+          "nom_user": "Admin19",
+          "password": "root",
+          "rol": "Admin"
+        },
+        {
+          "nom_user": "Admin20",
+          "password": "root",
+          "rol": "Admin"
+        }
+]

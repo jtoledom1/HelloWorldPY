@@ -1,17 +1,137 @@
-{
-    "id_Paciente":"",
-    "id_Medico": "",
+[
+  {
+    "id_Paciente": "674e55bb77a1084a6da1013e",
+    "id_Medico": "674d667692be37f7692bb3ae",
     "medicamentos": [
-      { "nombre": "", "dosis": "", "frecuencia": "" },
-      { "nombre": "", "dosis": "", "frecuencia": "" }
+      {
+        "nombre": "Ibuprofeno",
+        "dosis": "200 mg",
+        "frecuencia": "3 veces al día"
+      },
+      {
+        "nombre": "Paracetamol",
+        "dosis": "500 mg",
+        "frecuencia": "cada 6 horas"
+      }
     ],
-    "fecha_emision": "2024-11-29",
-    "diagnostico_asociado": "",
-    "Tratamiento":{
-      "tipo_diagnostico": "Enfermedad cardiovascular",
-      "descripcion": "Hipertensión grado 2",
-      "pruebas_realizadas": ["Electrocardiograma", "Ecocardiograma"],
-      "fecha_diagnostico": "2024-11-29"
+    "fecha_emision": "2024-12-03",
+    "diagnostico_asociado": "Dolor articular y fiebre",
+    "Tratamiento": {
+      "tipo_diagnostico": "Clínico",
+      "descripcion": "Paciente presenta síntomas de fiebre y dolor articular",
+      "pruebas_realizadas": [
+        "Radiografía de rodilla",
+        "Prueba de sangre general"
+      ],
+      "fecha_diagnostico": "2024-12-03"
     }
-}
-  
+  },
+  {
+    "id_Paciente": "674e55bb77a1084a6da1024f",
+    "id_Medico": "674d667692be37f7692bb42f",
+    "medicamentos": [
+      {
+        "nombre": "Amoxicilina",
+        "dosis": "500 mg",
+        "frecuencia": "cada 8 horas"
+      },
+      {
+        "nombre": "Vitamina D",
+        "dosis": "1000 UI",
+        "frecuencia": "diaria"
+      }
+    ],
+    "fecha_emision": "2024-12-04",
+    "diagnostico_asociado": "Infección bacteriana en vías respiratorias",
+    "Tratamiento": {
+      "tipo_diagnostico": "Clínico",
+      "descripcion": "Paciente presenta síntomas de tos persistente y fiebre",
+      "pruebas_realizadas": [
+        "Radiografía de tórax",
+        "Prueba de sangre para leucocitos"
+      ],
+      "fecha_diagnostico": "2024-12-04"
+    }
+  },
+  {
+    "id_Paciente": "674e55bb77a1084a6da1035g",
+    "id_Medico": "674d667692be37f7692bb4f5",
+    "medicamentos": [
+      {
+        "nombre": "Prednisona",
+        "dosis": "10 mg",
+        "frecuencia": "1 vez al día"
+      },
+      {
+        "nombre": "Acetaminofén",
+        "dosis": "500 mg",
+        "frecuencia": "cada 4 horas"
+      }
+    ],
+    "fecha_emision": "2024-12-05",
+    "diagnostico_asociado": "Alergia respiratoria severa",
+    "Tratamiento": {
+      "tipo_diagnostico": "Clínico",
+      "descripcion": "Paciente presenta dificultad respiratoria y estornudos frecuentes",
+      "pruebas_realizadas": [
+        "Prueba de espirometría",
+        "Análisis de sangre para IgE"
+      ],
+      "fecha_diagnostico": "2024-12-05"
+    }
+  },
+  {
+    "id_Paciente": "674e55bb77a1084a6da1047h",
+    "id_Medico": "674d667692be37f7692bb5c6",
+    "medicamentos": [
+      {
+        "nombre": "Metformina",
+        "dosis": "500 mg",
+        "frecuencia": "2 veces al día"
+      },
+      {
+        "nombre": "Enalapril",
+        "dosis": "10 mg",
+        "frecuencia": "1 vez al día"
+      }
+    ],
+    "fecha_emision": "2024-12-06",
+    "diagnostico_asociado": "Hipertensión y diabetes tipo 2",
+    "Tratamiento": {
+      "tipo_diagnostico": "Crónico",
+      "descripcion": "Paciente con antecedentes de hipertensión y diabetes mellitus tipo 2",
+      "pruebas_realizadas": [
+        "Prueba de glucosa en sangre",
+        "Electrocardiograma"
+      ],
+      "fecha_diagnostico": "2024-12-06"
+    }
+  },
+  {
+    "id_Paciente": "674e55bb77a1084a6da1058i",
+    "id_Medico": "674d667692be37f7692bb6d7",
+    "medicamentos": [
+      {
+        "nombre": "Loratadina",
+        "dosis": "10 mg",
+        "frecuencia": "diaria"
+      },
+      {
+        "nombre": "Bromhexina",
+        "dosis": "8 mg",
+        "frecuencia": "cada 8 horas"
+      }
+    ],
+    "fecha_emision": "2024-12-07",
+    "diagnostico_asociado": "Rinitis alérgica",
+    "Tratamiento": {
+      "tipo_diagnostico": "Alérgico",
+      "descripcion": "Paciente con síntomas nasales y estornudos debido a rinitis alérgica",
+      "pruebas_realizadas": [
+        "Prueba de alergia cutánea",
+        "Análisis de sangre para eosinófilos"
+      ],
+      "fecha_diagnostico": "2024-12-07"
+    }
+  }
+]

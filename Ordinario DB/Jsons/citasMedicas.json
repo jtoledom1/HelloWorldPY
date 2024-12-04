@@ -1,7 +1,122 @@
-{
-    "id_cita":"007",
-    "nom_user":"Joan Praddels",
+[
+  {
+    "id_cita": "001",
+    "nom_user": "Laura Martínez",
+    "id_medico": "105",
+    "fecha_hora": "2024-12-01T09:30:00"
+  },
+  {
+    "id_cita": "002",
+    "nom_user": "Carlos Fernández",
+    "id_medico": "203",
+    "fecha_hora": "2024-12-01T10:00:00"
+  },
+  {
+    "id_cita": "003",
+    "nom_user": "Ana Gómez",
+    "id_medico": "134",
+    "fecha_hora": "2024-12-01T10:30:00"
+  },
+  {
+    "id_cita": "004",
+    "nom_user": "Pedro Ruiz",
+    "id_medico": "289",
+    "fecha_hora": "2024-12-01T11:00:00"
+  },
+  {
+    "id_cita": "005",
+    "nom_user": "Marta González",
+    "id_medico": "317",
+    "fecha_hora": "2024-12-01T11:30:00"
+  },
+  {
+    "id_cita": "006",
+    "nom_user": "José Pérez",
+    "id_medico": "123",
+    "fecha_hora": "2024-12-02T09:00:00"
+  },
+  {
+    "id_cita": "007",
+    "nom_user": "Joan Praddels",
     "id_medico": "247",
     "fecha_hora": "2024-12-05T10:00:00"
+  },
+  {
+    "id_cita": "008",
+    "nom_user": "Sofía López",
+    "id_medico": "182",
+    "fecha_hora": "2024-12-02T10:00:00"
+  },
+  {
+    "id_cita": "009",
+    "nom_user": "Diego Sánchez",
+    "id_medico": "146",
+    "fecha_hora": "2024-12-02T10:30:00"
+  },
+  {
+    "id_cita": "010",
+    "nom_user": "Raquel Díaz",
+    "id_medico": "259",
+    "fecha_hora": "2024-12-02T11:00:00"
+  },
+  {
+    "id_cita": "011",
+    "nom_user": "Andrés Navarro",
+    "id_medico": "312",
+    "fecha_hora": "2024-12-02T11:30:00"
+  },
+  {
+    "id_cita": "012",
+    "nom_user": "Lucía Romero",
+    "id_medico": "198",
+    "fecha_hora": "2024-12-03T09:00:00"
+  },
+  {
+    "id_cita": "013",
+    "nom_user": "Rafael Álvarez",
+    "id_medico": "215",
+    "fecha_hora": "2024-12-03T09:30:00"
+  },
+  {
+    "id_cita": "014",
+    "nom_user": "Carmen Ruiz",
+    "id_medico": "132",
+    "fecha_hora": "2024-12-03T10:00:00"
+  },
+  {
+    "id_cita": "015",
+    "nom_user": "Tomás Herrera",
+    "id_medico": "267",
+    "fecha_hora": "2024-12-03T10:30:00"
+  },
+  {
+    "id_cita": "016",
+    "nom_user": "Elena Sánchez",
+    "id_medico": "243",
+    "fecha_hora": "2024-12-03T11:00:00"
+  },
+  {
+    "id_cita": "017",
+    "nom_user": "Javier Castillo",
+    "id_medico": "271",
+    "fecha_hora": "2024-12-04T09:00:00"
+  },
+  {
+    "id_cita": "018",
+    "nom_user": "Alba Fernández",
+    "id_medico": "150",
+    "fecha_hora": "2024-12-04T09:30:00"
+  },
+  {
+    "id_cita": "019",
+    "nom_user": "Fernando Morales",
+    "id_medico": "181",
+    "fecha_hora": "2024-12-04T10:00:00"
+  },
+  {
+    "id_cita": "020",
+    "nom_user": "Patricia Torres",
+    "id_medico": "192",
+    "fecha_hora": "2024-12-04T10:30:00"
   }
-  
+]
