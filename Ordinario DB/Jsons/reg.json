@@ -1,0 +1,273 @@
+[
+    {
+      "id_Paciente": "674fd3024e41309a94a3e55a",
+      "id_Medico": "674fd2484e41309a94a3e551",
+      "medicamentos": [
+        {
+          "nombre": "Ibuprofeno",
+          "dosis": "200 mg",
+          "frecuencia": "3 veces al día"
+        },
+        {
+          "nombre": "Paracetamol",
+          "dosis": "500 mg",
+          "frecuencia": "cada 6 horas"
+        }
+      ],
+      "fecha_emision": "2024-12-03",
+      "diagnostico_asociado": "Dolor articular y fiebre",
+      "Tratamiento": {
+        "tipo_diagnostico": "Clínico",
+        "descripcion": "Paciente presenta síntomas de fiebre y dolor articular",
+        "pruebas_realizadas": [
+          "Radiografía de rodilla",
+          "Prueba de sangre general"
+        ],
+        "fecha_diagnostico": "2024-12-03"
+      }
+    },
+    {
+      "id_Paciente": "674e55bb77a1084a6da1024f",
+      "id_Medico": "674d667692be37f7692bb42f",
+      "medicamentos": [
+        {
+          "nombre": "Amoxicilina",
+          "dosis": "500 mg",
+          "frecuencia": "cada 8 horas"
+        },
+        {
+          "nombre": "Vitamina D",
+          "dosis": "1000 UI",
+          "frecuencia": "diaria"
+        }
+      ],
+      "fecha_emision": "2024-12-04",
+      "diagnostico_asociado": "Infección bacteriana en vías respiratorias",
+      "Tratamiento": {
+        "tipo_diagnostico": "Clínico",
+        "descripcion": "Paciente presenta síntomas de tos persistente y fiebre",
+        "pruebas_realizadas": [
+          "Radiografía de tórax",
+          "Prueba de sangre para leucocitos"
+        ],
+        "fecha_diagnostico": "2024-12-04"
+      }
+    },
+    {
+      "id_Paciente": "674fd3024e41309a94a3e564",
+      "id_Medico": "674fd2484e41309a94a3e53f",
+      "medicamentos": [
+        {
+          "nombre": "Prednisona",
+          "dosis": "10 mg",
+          "frecuencia": "1 vez al día"
+        },
+        {
+          "nombre": "Acetaminofén",
+          "dosis": "500 mg",
+          "frecuencia": "cada 4 horas"
+        }
+      ],
+      "fecha_emision": "2024-12-05",
+      "diagnostico_asociado": "Alergia respiratoria severa",
+      "Tratamiento": {
+        "tipo_diagnostico": "Clínico",
+        "descripcion": "Paciente presenta dificultad respiratoria y estornudos frecuentes",
+        "pruebas_realizadas": [
+          "Prueba de espirometría",
+          "Análisis de sangre para IgE"
+        ],
+        "fecha_diagnostico": "2024-12-05"
+      }
+    },
+    {
+      "id_Paciente": "674fd3024e41309a94a3e565",
+      "id_Medico": "674fd2484e41309a94a3e54b",
+      "medicamentos": [
+        {
+          "nombre": "Metformina",
+          "dosis": "500 mg",
+          "frecuencia": "2 veces al día"
+        },
+        {
+          "nombre": "Enalapril",
+          "dosis": "10 mg",
+          "frecuencia": "1 vez al día"
+        }
+      ],
+      "fecha_emision": "2024-12-06",
+      "diagnostico_asociado": "Hipertensión y diabetes tipo 2",
+      "Tratamiento": {
+        "tipo_diagnostico": "Crónico",
+        "descripcion": "Paciente con antecedentes de hipertensión y diabetes mellitus tipo 2",
+        "pruebas_realizadas": [
+          "Prueba de glucosa en sangre",
+          "Electrocardiograma"
+        ],
+        "fecha_diagnostico": "2024-12-06"
+      }
+    },
+    {
+      "id_Paciente": "674fd3024e41309a94a3e556",
+      "id_Medico": "674fd2484e41309a94a3e541",
+      "medicamentos": [
+        {
+          "nombre": "Loratadina",
+          "dosis": "10 mg",
+          "frecuencia": "diaria"
+        },
+        {
+          "nombre": "Bromhexina",
+          "dosis": "8 mg",
+          "frecuencia": "cada 8 horas"
+        }
+      ],
+      "fecha_emision": "2024-12-07",
+      "diagnostico_asociado": "Rinitis alérgica",
+      "Tratamiento": {
+        "tipo_diagnostico": "Alérgico",
+        "descripcion": "Paciente con síntomas nasales y estornudos debido a rinitis alérgica",
+        "pruebas_realizadas": [
+          "Prueba de alergia cutánea",
+          "Análisis de sangre para eosinófilos"
+        ],
+        "fecha_diagnostico": "2024-12-07"
+      }
+    },
+        {
+          "id_Paciente": "674e55bb77a1084a6da1061j",
+          "id_Medico": "674d667692be37f7692bb7e9",
+          "medicamentos": [
+            {
+              "nombre": "Atorvastatina",
+              "dosis": "20 mg",
+              "frecuencia": "diaria"
+            },
+            {
+              "nombre": "Ácido fólico",
+              "dosis": "5 mg",
+              "frecuencia": "diaria"
+            }
+          ],
+          "fecha_emision": "2024-12-08",
+          "diagnostico_asociado": "Dislipidemia",
+          "Tratamiento": {
+            "tipo_diagnostico": "Crónico",
+            "descripcion": "Paciente con niveles elevados de colesterol y triglicéridos",
+            "pruebas_realizadas": [
+              "Perfil lipídico",
+              "Electrocardiograma"
+            ],
+            "fecha_diagnostico": "2024-12-08"
+          }
+        },
+        {
+          "id_Paciente": "674fd3024e41309a94a3e557",
+          "id_Medico": "674fd2484e41309a94a3e547",
+          "medicamentos": [
+            {
+              "nombre": "Lisinopril",
+              "dosis": "5 mg",
+              "frecuencia": "diaria"
+            },
+            {
+              "nombre": "Furosemida",
+              "dosis": "40 mg",
+              "frecuencia": "cada 12 horas"
+            }
+          ],
+          "fecha_emision": "2024-12-09",
+          "diagnostico_asociado": "Insuficiencia cardíaca",
+          "Tratamiento": {
+            "tipo_diagnostico": "Crónico",
+            "descripcion": "Paciente con síntomas de retención de líquidos y dificultad para respirar",
+            "pruebas_realizadas": [
+              "Ecocardiograma",
+              "Prueba de función renal"
+            ],
+            "fecha_diagnostico": "2024-12-09"
+          }
+        },
+        {
+          "id_Paciente": "674fd3024e41309a94a3e55b",
+          "id_Medico": "674fd2484e41309a94a3e547",
+          "medicamentos": [
+            {
+              "nombre": "Metotrexato",
+              "dosis": "15 mg",
+              "frecuencia": "semanal"
+            },
+            {
+              "nombre": "Ácido folínico",
+              "dosis": "5 mg",
+              "frecuencia": "diaria"
+            }
+          ],
+          "fecha_emision": "2024-12-10",
+          "diagnostico_asociado": "Artritis reumatoide",
+          "Tratamiento": {
+            "tipo_diagnostico": "Crónico",
+            "descripcion": "Paciente con inflamación y dolor articular persistente",
+            "pruebas_realizadas": [
+              "Radiografía de manos",
+              "Factor reumatoide"
+            ],
+            "fecha_diagnostico": "2024-12-10"
+          }
+        },
+        {
+          "id_Paciente": "674fd3024e41309a94a3e55c",
+          "id_Medico": "674fd2484e41309a94a3e542",
+          "medicamentos": [
+            {
+              "nombre": "Omeprazol",
+              "dosis": "20 mg",
+              "frecuencia": "diaria"
+            },
+            {
+              "nombre": "Ranitidina",
+              "dosis": "150 mg",
+              "frecuencia": "diaria"
+            }
+          ],
+          "fecha_emision": "2024-12-11",
+          "diagnostico_asociado": "Úlcera gástrica",
+          "Tratamiento": {
+            "tipo_diagnostico": "Digestivo",
+            "descripcion": "Paciente con dolor abdominal recurrente y ardor estomacal",
+            "pruebas_realizadas": [
+              "Endoscopia gástrica",
+              "Prueba de Helicobacter pylori"
+            ],
+            "fecha_diagnostico": "2024-12-11"
+          }
+        },
+        {
+          "id_Paciente": "674fd3024e41309a94a3e567",
+          "id_Medico": "674d667692be37f7692bb3ae",
+          "medicamentos": [
+            {
+              "nombre": "Clonazepam",
+              "dosis": "0.5 mg",
+              "frecuencia": "diaria"
+            },
+            {
+              "nombre": "Fluoxetina",
+              "dosis": "20 mg",
+              "frecuencia": "diaria"
+            }
+          ],
+          "fecha_emision": "2024-12-12",
+          "diagnostico_asociado": "Trastorno de ansiedad generalizada",
+          "Tratamiento": {
+            "tipo_diagnostico": "Psicológico",
+            "descripcion": "Paciente con síntomas de ansiedad y dificultad para controlar pensamientos",
+            "pruebas_realizadas": [
+              "Evaluación psicológica",
+              "Escala de ansiedad de Hamilton"
+            ],
+            "fecha_diagnostico": "2024-12-12"
+          }
+        }
+  ]
+  

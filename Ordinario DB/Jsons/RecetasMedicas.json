@@ -2,10 +2,16 @@
     "id_Paciente":"",
     "id_Medico": "",
     "medicamentos": [
-      { "nombre": "Losartán", "dosis": "50mg", "frecuencia": "1 vez al día" },
-      { "nombre": "Atenolol", "dosis": "25mg", "frecuencia": "1 vez al día" }
+      { "nombre": "", "dosis": "", "frecuencia": "" },
+      { "nombre": "", "dosis": "", "frecuencia": "" }
     ],
     "fecha_emision": "2024-11-29",
-    "diagnostico_asociado": "Hipertensión grado 2"
-  }
+    "diagnostico_asociado": "",
+    "Tratamiento":{
+      "tipo_diagnostico": "Enfermedad cardiovascular",
+      "descripcion": "Hipertensión grado 2",
+      "pruebas_realizadas": ["Electrocardiograma", "Ecocardiograma"],
+      "fecha_diagnostico": "2024-11-29"
+    }
+}
   
