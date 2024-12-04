@@ -104,10 +104,6 @@ def queryaddcit(idmed):
     }
     return query
 
-"""     y=json.dumps(query)
-    print(y) """
-    
-
 def querydelcit(idmed):
     opc=input("Quieres ver las citas de un paciente y/n ")
     if opc=='y':
@@ -151,19 +147,6 @@ def filtroupdcit():
             query={'$set':{'fecha_hora':upd}}
     return query
 
-def queryfindcit():
-    idusr = input("Ingresa el nombre del paciente")
-    query={"nom_user":idusr}
-    return query
-############################################################
-#                                                           #
-#               Aquí empieza Rec Trat                       #
-#                                                           #
-############################################################
-
-
-
-# Crear un nuevo registro (Paciente, Médico, Tratamiento)
 def crear_registro():
     print("Estás en la opción de crear un nuevo registro.")
     
@@ -207,13 +190,11 @@ def crear_registro():
     # Inserción en la base de datos
     interacmongo("Registros", "insertOne", nuevo_registro)
     
-# Leer registros (información de un paciente)
 def leer_registro():
     print("Estás en la opción de leer registros.")
     paciente_id = input("Ingresa el ID del paciente para ver sus registros: ")
     interacmongo("Registros", "find", {'id_Paciente': paciente_id})
 
-# Actualizar un registro
 def actualizar_registro():
     print("Estás en la opción de modificar un registro.")
     
@@ -263,7 +244,6 @@ def actualizar_registro():
     # Realizar la actualización
     interacmongo("Registros", "updateOne", query, query2)
     
-# Eliminar un registro
 def eliminar_registro():
     print("Estás en la opción de eliminar un registro.")
     
@@ -274,7 +254,6 @@ def eliminar_registro():
     # Eliminar el registro
     interacmongo("Registros", "remove", query)
 
-# Función principal para ejecutar el CRUD
 def menu_Rec_Tra():
     while True:
         print("\nSelecciona una opción:")
@@ -300,22 +279,10 @@ def menu_Rec_Tra():
         else:
             print("Opción no válida. Por favor, selecciona una opción del 1 al 5.")
 
-
-
-############################################################
-#                                                           #
-#                   Aquí termina Rec Trat                   #
-#                                                           #
-############################################################
-
-
-
-
-############################################################
-#                                                          #
-#                   APARTADO OPERATIVO                     #
-#                                                          #
-############################################################
+def queryfindcit():
+    idusr = input("Ingresa el nombre del paciente")
+    query={"nom_user":idusr}
+    return query
 
 
 opsel=menuopciones("Médico","Usuario","Admin")
@@ -351,7 +318,7 @@ match opsel:
             case '1':
                 interacmongo("Citas","find",queryfindcit)
             case'2':
-                interacmongo("Recetas","find",queryfindcit)
+                interacmongo("Registros","find",queryfindcit)
             case'3':
                 print("Saliendo")
     case'3':
