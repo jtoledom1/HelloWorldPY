@@ -316,11 +316,21 @@ match opsel:
         opsusr=menuopciones("Citas", "Recetas", "Salir")
         match opsusr:
             case '1':
-                interacmongo("Citas","find",queryfindcit)
+                
+                crefinusrcit=menuopciones("Crear", "Consultar", "Salir")
+                match crefinusrcit:
+                    case'1':
+                        interacmongo("Citas","find",queryfindcit)
+                    case '2':
+                        addcit = queryaddcit('674d667692be37f7692bb3ae')
+                        interacmongo("Citas","insertOne",addcit)
+                    case'3':
+                        print("Saliendo ...")
             case'2':
                 interacmongo("Registros","find",queryfindcit)
             case'3':
                 print("Saliendo")
+##Admin    
     case'3':
         opsadm=menuopciones("Cear usuario","Borrar usuario","Modificar usuario")    
         match opsadm:
